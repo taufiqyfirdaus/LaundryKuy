@@ -89,7 +89,6 @@
                 <th>Id</th>
                 <th>Layanan</th>
                 <th>Harga</th>
-                <th>Aksi</th>
             </tr>
           </thead>
           <tbody>
