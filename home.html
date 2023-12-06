@@ -1,0 +1,96 @@
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>LaundryKuy</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- menyisipkan bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+        <script src=""></script>
+    </head>
+    <body style="background-color: rgba(129, 129, 129, 0.2);">
+        <!-- navbar -->
+        <nav class="navbar-expand-sm" style="height: 50px;"></nav>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <a class="navbar-brand" href="home.html">
+                <img src="img/logo2.png" class="rounded-circle" alt="Logo" style="width:40px;">
+            </a>
+            <a href="home.html" class="navbar-brand">LaundryKuy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto mr-5" >
+                    <li class="nav-item">
+                        <a href="home.html" class="nav-link text-dark">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="DaftarTransaksi.php" class="nav-link text-dark">Daftar Transaksi</a>
+                      </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbardrop" data-toggle="dropdown">
+                          Layanan
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="LaundryKiloan.php">Laundry Kiloan</a>
+                            <a class="dropdown-item" href="LaundrySatuan.php">Laundry Satuan</a>
+                            <a class="dropdown-item" href="LaundrySepatu.php">Cuci Sepatu</a>
+                            <a class="dropdown-item" href="LaundryKarpet.php">Cuci Karpet</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Outlet.php" class="nav-link text-dark">Outlet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.php" class="nav-link text-dark">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container pt-1 pb-5">
+            <div class="jumbotron mt-xl-5 text-light" style="background-color: #023750;">
+                <img src="img/baju.png" class="float-right mr-5" width="170" height="170">
+                <h3 class="ml-4">Laundry kiloan maupun satuan & Jasa cuci karpet</h3>
+                <p class="ml-4">LaundryKuy menyediakan berbagai macam layanan cuci untuk daerah Malang.</p>
+            </div>
+            <div class="text-center">
+                <h2><b>Jasa Laundry Kami</b></h2>
+                <img src="img/triangle.svg" class="text-center mb-4" width="30">
+                <div class="row row-cols-4 mx-auto">
+                    <div class="col">
+                        <img src="img/kiloan.jpg" class="rounded-circle mb-3" width="150" height="150">
+                        <h5 style="color: #023750;"><b>Laundry Kiloan</b></h5>
+                        <p>Jasa laundry kiloan cocok untuk pakaian sehari-hari anda, dengan harga terjangkau sudah termasuk cuci, setrika, lipat.</p>
+                        <a href="LaundryKiloan.php">Detail Laundry Kiloan</a>
+                    </div>
+                    <div class="col">
+                        <img src="img/satuan.png" class="rounded-circle mb-3" width="150" height="150">
+                        <h5 style="color: #023750;"><b>Laundry Satuan</b></h5>
+                        <p>Jasa laundry satuan seperti kemeja, jas, dll. Dengan pengerjaan yang detail dan bersih, sangat cocok untuk pakaian spesial anda.</p>
+                        <a href="LaundrySatuan.php">Detail Laundry Satuan</a>
+                    </div>
+                    <div class="col">
+                        <img src="img/sepatu.jpg" class="rounded-circle mb-3" width="150" height="150">
+                        <h5 style="color: #023750;"><b>Cuci Sepatu</b></h5>
+                        <p>Ingin sepatu anda bersih dan wangi? Kami akan membersihkan dan memberikan perawatan pada sepatu kesayangan anda.</p>
+                        <a href="LaundrySepatu.php">Detail Cuci Sepatu</a>
+                    </div>
+                    <div class="col">
+                        <img src="img/karpet.jpg" class="rounded-circle mb-3" width="150" height="150">
+                        <h5 style="color: #023750;"><b>Cuci Karpet</b></h5>
+                        <p>Kami menerima cuci karpet rumah, masjid, dan kantor. Harga yang terjangkau dan pengerjaan bersih dan wangi.</p>
+                        <a href="">Detail Cuci Karpet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer class="text-center text-lg-start mt-3" style="background-color: #023750;">
+        <div class="text-light text-center p-3">
+          © 2022 Copyright LaundryKuy
+        </div>
+      </footer>
+</html>

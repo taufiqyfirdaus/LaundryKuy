@@ -1,0 +1,9 @@
+.nav-item a:hover{
+    background-color:rgb(203, 203, 203);
+}
+.navbar {
+    box-shadow: 0 6px 6px -6px rgb(35, 35, 35);
+}
+.col p{
+    font-size: small;
+}
